@@ -21,6 +21,8 @@
                                                                                                        
 #### Changes to be made by the user
 - <b>fileName</b>: This is the file path and file name with "//" separating folders (i.e. "C://Users//hspeed//Dropbox//Sync Data Analysis Computers//Gulf War Project//Statistics//R Scripts//IO Curve//IO Curve Per Slice.csv")
+- <b> if the spreadsheet is in xlsx format</b>, comment-out ("#") the line with the "read.csv()" function
+- If the spreadsheet is in the csv format, comment-out ("#") the line with the "read.xlsx()" function (default)
 
 *Optional*
 - If the data is set up any way other than the example, then 
@@ -62,4 +64,5 @@ Author: Haley E. Speed, PhD
 Department of Neurology and Neurotherapeutics
 
 University of Texas Southwestern Medical Center, Dallas, TX
+
 Copyright 2017
