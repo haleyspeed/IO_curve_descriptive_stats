@@ -25,8 +25,7 @@
 #-------------------------------------------------------------------------------------------------------#
 
 # Assign filename and path (replace all backslashes with double forward slashes in path)
-fileName  <- "C://Users//hspeed//Dropbox//Sync Data Analysis Computers//Gulf War Project//Statistics//
-                R Scripts//IO Curve//IO Curve Per Slice.csv"
+fileName  <- "C://Users"
 
 # Import data from csv spreadsheet
 data <- read.csv(filename, header = TRUE)
